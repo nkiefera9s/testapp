@@ -5,6 +5,7 @@
 $light-gray: #777;
 $baby-blue: rgb(31, 162, 214);
 
+
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
@@ -107,7 +108,7 @@ input {
     }
     &:hover {
       text-decoration: none;
-      color: blue;
+      color: rgb(255, 255, 255);
     }
   }
   strong {
